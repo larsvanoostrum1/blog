@@ -10,6 +10,7 @@ Last summer, I coded a Judo ELO rating using R. My main goal was to quantify ski
 The [Elo Rating](https://en.wikipedia.org/wiki/Elo_rating_system) works as follows. First, we assign a base ELO rating of $$1500$$ to ever individual judoka. Then, we go through the matches played (using data from [data.ijf.org](data.ijf.org)), and update the elo rating of two players after every match played.
 
 If the winning player $$W$$ has a rating of $$R_W$$ and the losing player $$L$$ a rating of $$R_L$$, we use the following formulae:
+
 <br>
 $$E_W = \frac{1}{1+10^{(R_L-R_W)/400}}$$\\
 $$E_L = \frac{1}{1+10^{(R_W-R_L)/400}}$$\\
@@ -23,4 +24,4 @@ $$R'_L = R_L - K \cdot E_L$$\\
 ## Visualisation
 Here you can view the video, where I visualised the ELO ratings of the -73 weight class over time, using Processing for the visualisation
 
-{% include embed.html url="https://www.youtube.com/watch?v=DHo23RTPf7Y" %}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DHo23RTPf7Y?si=xtUTTNa-p6zbncKu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
