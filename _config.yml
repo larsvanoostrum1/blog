@@ -22,9 +22,10 @@ navigation:                     # accepts {file, title, url, icon, sidebaricon}
   - {file: "README.md", sidebaricon: address-card}
 
 external:                       # accepts {file, title, url, icon, sidebaricon}
+  - {title: LinkedIn, icon: linkedin, url: "https://www.linkedin.com/in/larsvanoostrum/"}
   - {title: Mail, icon: envelope, url: "mailto:larsvanoostrum1@gmail.com"}
   - {title: Github, icon: github, url: "https://github.com/larsvanoostrum1"}
-  - {title: LinkedIn, icon: linkedin, url: "https://www.linkedin.com/in/larsvanoostrum/"}
+  
 
 comments:
 #  disqus_shortname: ""         # see https://disqus.com
