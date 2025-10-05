@@ -5,4 +5,10 @@ layout: post
 categories: blog
 ---
 
-On this blog, I will try to post about a variety of subjects I find interesting. This will mainly be around applying math, econometrics and data science to sports, just what triggers my interest at the time.
+In this blog, I will try to post about a variety of subjects I find interesting. This will mainly be around applying math, econometrics and data science to sports, just what triggers my interest at the time.
+
+During the summer, I first started applying the knowledge from my Econometrics studies when I heard that decisions by the Dutch Judo Federation (JBN) where partially based on an Elo rating. Since I knew about the Elo rating from chess, it immediately sparked an interest in me, and some days later I had coded an Elo rating using match-data from the IJF myself.
+
+Since then, I have been puzzling with more projects, as a way to fill my spare time. Because some things are quite interesting, and to get some extra practise for writing my MSc thesis next year, I decided to start this blog.
+
+Have fun!
