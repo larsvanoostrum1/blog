@@ -7,7 +7,7 @@ categories: blog
 Last summer, I coded a Judo ELO rating using R. My main goal was to quantify skill in judo, something normally only is done using the world ranking list.
 
 ## ELO Rating
-The [Elo Rating](https://en.wikipedia.org/wiki/Elo_rating_system) works as follows. First, we assign a base ELO rating of $$1500$$ to ever individual judoka. Then, we go through the matches played (using data from [data.ijf.org](data.ijf.org)), and update the elo rating of two players after every match played.
+The [Elo Rating](https://en.wikipedia.org/wiki/Elo_rating_system) works as follows. First, we assign a base ELO rating of $$1500$$ to every individual judoka. Then, we go through the matches played (using data from [data.ijf.org](data.ijf.org)), and update the elo rating of two players after every match played.
 
 If the winning player $$W$$ has a rating of $$R_W$$ and the losing player $$L$$ a rating of $$R_L$$, we use the following formulae:
 
