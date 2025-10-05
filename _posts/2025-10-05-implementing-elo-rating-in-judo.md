@@ -1,5 +1,5 @@
 ---
-title:  "Implementing Elo rating in Judo"
+title:  "Implementing the Elo rating in judo"
 mathjax: true
 layout: post
 categories: blog
