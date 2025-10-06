@@ -34,6 +34,6 @@ A higher $$K$$-factor means ratings will fluctuate more per match, and that it t
 ## Visualisation
 In my code, I stored the Elo rating for every judoka after each competition day. This made it possible to visualise a top 10 over time using a simple moving bar graph. Here you can view the video, where I visualised the judokas with the highest Elo ratings in the -73 weight class over time, using Processing for the visualisation. It has become a great representation of who was dominant during which years, if I may say so myself.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/DHo23RTPf7Y?si=xtUTTNa-p6zbncKu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="50%" src="https://www.youtube.com/embed/DHo23RTPf7Y?si=xtUTTNa-p6zbncKu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Later on, I will go further into quantifying skill in judo, using different methods, and validating these methods. This will allow us to get even more insights from the data.
