@@ -32,7 +32,7 @@ Here, $$K$$ denotes the so-called $$K$$-factor, which is a parameter of the mode
 A higher $$K$$-factor means ratings will fluctuate more per match, and that it takes less matches to get to the top of the rankings. For now, I set it to $$K=40$$ after some small testing and seeing what felt right. However, in the future I am planning to formally optimize the $$K$$-factor based on prediction accuracy.
 
 ## Visualisation
-In my code, I stored the Elo rating for every judoka after each competition day. This made it possible to visualise a top 10 using a simple moving bar graph. Here you can view the video, where I visualised the judokas with the highest Elo ratings in the -73 weight class over time, using Processing for the visualisation. It has become a great representation of who was dominant during which years, if I may say so myself.
+In my code, I stored the Elo rating for every judoka after each competition day. This made it possible to visualise a top 10 over time using a simple moving bar graph. Here you can view the video, where I visualised the judokas with the highest Elo ratings in the -73 weight class over time, using Processing for the visualisation. It has become a great representation of who was dominant during which years, if I may say so myself.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/DHo23RTPf7Y?si=xtUTTNa-p6zbncKu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
