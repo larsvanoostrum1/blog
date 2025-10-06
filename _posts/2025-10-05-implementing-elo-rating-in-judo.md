@@ -7,7 +7,7 @@ categories: blog
 Last summer, I used contest data from the IJF to calculate Elo ratings for every judoka. My main goal was to quantify skill in judo, something normally only is done using the world ranking list. This can lead to some interesting insights, and it makes it possible to visualise which judoka was good during what time period.
 
 ## Elo rating
-The [Elo Rating](https://en.wikipedia.org/wiki/Elo_rating_system) is a "method for calculating the relative skill of levels of players in zero-sum games", invented by chess master Arpad Elo. The rating works as follows. First, we assign a base ELO rating of $$1500$$ to ever individual judoka. Then, we go through the matches played (using data from [data.ijf.org](data.ijf.org)), and update the elo rating of two players after every match played.
+The [Elo Rating](https://en.wikipedia.org/wiki/Elo_rating_system) is a "method for calculating the relative skill of levels of players in zero-sum games", invented by chess master Arpad Elo. The rating works as follows. First, we assign a base ELO rating of $$1500$$ to ever individual judoka. Then, we go through the matches played (using data from [data.ijf.org](https://data.ijf.org)), and update the elo rating of two players after every match played.
 
 ## How it works
 If the winning player $$W$$ has a rating of $$R_W$$ and the losing player $$L$$ a rating of $$R_L$$, we first determine the expected score of each player. The expected score $$E_i$$ for player $$i$$ can be interpreted as the probability that player $$i$$ will win the match. The expected scores for players $$W$$ and $$L$$ are given by:
